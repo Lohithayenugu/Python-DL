@@ -1,9 +1,14 @@
-import requests as rq
-from bs4 import BeautifulSoup
+l = "324"
+nums = {'1':'one',
+        '2':'two',
+        '3':'three',
+        '4':'four',
+        '5':'five',
+        '6':'six',
+        '7':'seven',
+        '8':'eight',
+        '9':'nine'}
 
-response=rq.get("https://en.wikipedia.org/wiki/Google")
-cont=BeautifulSoup(response.content,"html.parser")
-print(cont.text)
-f=open("input.txt", "w+",encoding="utf-8")
-f.write(cont.text)
-f.close()
+str = ''
+list1 = (nums[i] for i in l)
+
