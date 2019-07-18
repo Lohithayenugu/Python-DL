@@ -15,7 +15,6 @@ X_train = train_df.drop("Type",axis=1)
 Y_train = train_df["Type"]
 X_test = test_df.drop("Type",axis=1)
 Y_test = test_df["Type"]
-combine = [train_df, test_df]
 model.fit(X_train, Y_train)
 #Predict Output
 predicted= model.predict(X_test)

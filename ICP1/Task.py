@@ -1,5 +1,5 @@
 import random
-str1 = input("Please enter the input string")
+'''str1 = input("Please enter the input string")
 str2 = input("Please enter the characters that are to be deleted with delimiter as space")
 str2 = str2.split(' ')
 for i in str2:
@@ -27,3 +27,20 @@ print("Modulus is:", x%y)
 str2 = input("Please enter the input string")
 str2 = str2.replace('python', 'pythons')
 print(str2)
+
+
+d = {}
+sorted(d)
+'''
+import numpy as np
+a = np.arange(8)
+print('The original array:')
+print(a)
+print('\n')
+
+b = a.reshape(4,2)
+print('The modified array:')
+print(b)
+
+v=[1,2]
+print(v)

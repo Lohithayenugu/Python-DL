@@ -58,6 +58,7 @@ plt.xticks(rotation=0)
 plt.show()
 
 ##Null values
+print(type(train))
 nulls = pd.DataFrame(train.isnull().sum().sort_values(ascending=False)[:25])
 nulls.columns = ['Null Count']
 nulls.index.name = 'Feature'
